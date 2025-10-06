@@ -32,4 +32,16 @@ All database versions follow this schema to allow **consistent querying** and **
 ---
 
 ## **Folder Structure**
+bibleapp-data/
+│
+├─ bible_versions.json      <- metadata file describing available versions
+└─ versions/
+   ├─ en/
+   │  ├─ kjv.db
+   │  └─ esv.db
+   ├─ es/
+   │  ├─ rvr1960.db
+   │  └─ nvi.db
+   └─ fr/
+      └─ lsg.db
 
